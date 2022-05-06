@@ -1,0 +1,22 @@
+{
+  "name": "ransoim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
+    "mirai-ts": "^2.2.1",
+    "mongodb": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.5",
+    "@types/lodash": "^4.14.181"
+  }
+}

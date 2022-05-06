@@ -1,0 +1,37 @@
+miraiQQ: <QQ>
+
+miraiConfig:
+  enableVerify: true
+  verifyKey: <key>
+  host: mcl
+  port: 8088
+
+mongo:
+  url: mongodb://root:<password>@mongo:27017
+
+tasks:
+  Repeater:
+    timeWindow: 140
+    repeatFreq: 3
+    repeatCount: 3
+
+    repeatBehaviorQ: 0.8624
+
+    avgDelayTime: 5
+
+    frozenTime: 5
+
+    acceptGroup:
+      - 123
+
+    groupConfig:
+      123:
+        exceptTypes:
+          - Image
+        exceptSenders: 
+          - 123
+        exceptWords:
+          - '#'
+
+
+
